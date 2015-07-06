@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: exp_append
+# key: exp
+# binding: direct-keybinding
+# --
+file_put_contents(${1:"/home/lmoulds/temp.txt"}, var_export($2, true), ${3: FILE_APPEND});
