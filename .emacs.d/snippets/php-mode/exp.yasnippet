@@ -3,4 +3,4 @@
 # key: exp
 # binding: direct-keybinding
 # --
-file_put_contents(${1:"/home/lmoulds/temp.txt"}, var_export($2, true), ${3: FILE_APPEND});
+file_put_contents(${1:"temp.txt"}, var_export($2, true), ${3: FILE_APPEND});
